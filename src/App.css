@@ -1,0 +1,126 @@
+.App {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #db4949
+  }
+  
+
+
+
+  body {
+    padding: 0;
+    margin: 0; 
+  }
+  div.links{
+    background-color: #db4949
+  }
+
+  div#close.navbar{
+    background-color: #db4949
+  }
+
+  div#open.navbar{
+    background-color: #db4949
+  }
+
+  .myresume{
+    animation: glitch 1s infinite;
+    color: #00eeff;
+    text-decoration: none;
+  }
+
+
+
+
+  @import url('https://fonts.googleapis.com/css?family=Bungee');
+.App{
+  font-family: 'Bungee', sans-serif;
+}
+
+#about-head{
+  color: #f7f200c0;
+  text-decoration: none;
+  margin: 90px;
+  font-size: 75px;
+  animation: glitch 1s infinite;
+}
+
+.footer{
+  text-align: center;
+  animation: glitch 1s infinite;
+  color: #f7f200c0;
+  text-decoration: none;
+  margin: 65px;
+}
+
+.projects-container {
+  display: flex;
+  justify-content: space-between;
+  max-width: 960px;
+  margin: 0 auto;
+}
+
+.project-card {
+  width: 30%;
+  margin-bottom: 40px;
+}
+
+
+
+
+
+@media only screen and (max-width: 768px) {
+  .projects-container {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .project-card {
+    width: 80%;
+    margin-bottom: 20px;
+  }
+}
+
+
+
+
+
+.projectImage{
+  width: 300px;
+  height: 200px;
+}
+
+div .title-here{
+  color: #f7f200c0;
+  text-decoration: none;
+  margin: 100px;
+  font-size: 55px;
+  text-align: center;
+  animation: glitch 1s infinite;
+
+}
+
+
+
+.clickmepro{
+  color: #f7f200c0;
+  animation: glitch 1s infinite;
+}
+
+.footertrade{
+  margin-top: 240px;
+  color: #f7f200c0;
+}
+
+.headpro{
+  color: #f7f200c0;
+  animation: glitch 1s infinite;
+}
+
+.despro{
+  color: whitesmoke;
+  
+}
